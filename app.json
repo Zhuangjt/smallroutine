@@ -1,12 +1,43 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/home/home",
+    "pages/room/roomlist",
+    "pages/order/orderlist",
+    "pages/personal/me"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "img/tab_home_normal.png",
+        "selectedIconPath": "img/tab_home_checked.png"
+      },
+      {
+        "pagePath": "pages/room/roomlist",
+        "text": "房间",
+        "iconPath": "img/tab_room_normal.png",
+        "selectedIconPath": "img/tab_room_checked.png"
+      },
+      {
+        "pagePath": "pages/order/orderlist",
+        "text": "订单",
+        "iconPath": "img/tab_order_normal.png",
+        "selectedIconPath": "img/tab_order_checked.png"
+      },
+      {
+        "pagePath": "pages/personal/me",
+        "text": "我的",
+        "iconPath": "img/tab_me_normal.png",
+        "selectedIconPath": "img/tab_me_checked.png"
+      }
+    ]
+  },
+  "debug": true
 }

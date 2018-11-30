@@ -1,0 +1,38 @@
+<!--pages/personal/me.wxml-->
+<view class="page-body">
+<view class="page-body-content">
+<canvas canvas-id="canvas" class="canvas">
+<cover-view class="cover-view">text1</cover-view>
+<cover-view class="cover-view">text2</cover-view>
+<cover-image class="cover-image" src="/img/location.png"></cover-image>
+</canvas>
+</view>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}"></icon>
+  </block>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconColor}}">
+    <icon type="success" color="{{item}}"></icon>
+  </block>
+</view>
+
+<view class="group"> 
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}"></icon>
+  </block>
+</view>
+
+<view class="body-view">
+  <text>{{text}}</text>
+  <button bindtap="add">add line</button>
+  <button bindtap="remove" hover-class="none">remove line</button>
+</view>
+
+<view class="btn-view">
+  <button type="default" size="default" disabled="false">default</button>
+</view>

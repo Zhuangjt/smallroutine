@@ -1,0 +1,62 @@
+/* pages/personal/me.wxss */
+.page-body{
+  width: 100%;
+  padding: 40rpx 0;
+}
+
+.page-body-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 400rpx;
+  background-color: yellow
+}
+
+.canvas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 400rpx;
+  background-color: white;
+}
+
+.cover-view{
+  margin-left: 104rpx;
+  margin-top: 40rpx;
+  width: 400rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: #1AAD19;
+  color: white
+}
+
+.cover-image{
+  margin-left: 200rpx;
+  margin-top: 40rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.group{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 40rpx;
+  margin-top: 100rpx;
+}
+
+.btn-view{
+  margin-top: 60rpx;
+}
+
+/* .btn{
+  width: 200rpx;
+  height: 60rpx;
+  font-size: 22rpx;
+  color: black;
+  vertical-align: middle;
+  text-align: center;
+} */

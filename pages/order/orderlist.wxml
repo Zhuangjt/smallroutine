@@ -1,0 +1,44 @@
+<!--pages/order/orderlist.wxml-->
+<view class="page-body">
+  <view class="page-section">
+    <view class="page-section-title">movable-view区域小于movable-area</view>
+    <movable-area class="movable-area">
+       <movable-view class="movable-view-small" x="{{x}}" y="{{y}}" direction="all">text</movable-view>
+    </movable-area>
+  </view>
+  <view>
+    <button class="btn1" bindtap="tap" type="primary">click me to move to(30px,30px)</button>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title">movable-view区域大于movable-area</view>
+      <movable-area class="movable-area">
+        <movable-view class="movable-view-large" direction="all">text</movable-view>
+      </movable-area>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title">只可以横向移动</view>
+    <movable-area class="movable-area">
+      <movable-view class="movable-view-small" direction="horizontal">text</movable-view>
+    </movable-area>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title">只可以纵向移动</view>
+    <movable-area class="movable-area">
+      <movable-view class="movable-view-small" direction="vertical">text</movable-view>  
+   </movable-area>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title">可缩放</view>
+    <movable-area class="movable-area">
+      <movable-view class="movable-view-small" direction="all" scale scale-min="0.5" scale-max="4" scale-value="{{scale}}">text</movable-view>
+    </movable-area>
+    <view>
+      <button class="btn1" bindtap="scale" type="primary">点击放大</button>
+    </view>
+  </view>
+</view>
+

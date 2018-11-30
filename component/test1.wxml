@@ -1,0 +1,6 @@
+<!--component/test1.wxml-->
+<view class='test1'>
+  <view>这是组件的内部节点</view>
+  <slot></slot>
+  <button bindtap='onTap'>点击这个按钮将处罚onClick事件</button>
+</view>
