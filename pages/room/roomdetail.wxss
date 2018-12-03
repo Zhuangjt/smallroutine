@@ -1,0 +1,15 @@
+/* pages/room/roomdetail.wxss */
+.section{
+  padding: 40rpx 40rpx;
+}
+
+.section-title{
+  color: black;
+  font-size: 36rpx;
+}
+
+.picker{
+  margin-top: 30rpx;
+  color: black;
+  font-size: 36rpx;
+}

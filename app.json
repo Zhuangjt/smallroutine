@@ -3,7 +3,9 @@
     "pages/home/home",
     "pages/room/roomlist",
     "pages/order/orderlist",
-    "pages/personal/me"
+    "pages/personal/me",
+    "pages/home/homedetail",
+    "pages/room/roomdetail"
   ],
   "window": {
     "backgroundTextStyle": "light",

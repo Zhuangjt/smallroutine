@@ -1,24 +1,16 @@
-// pages/room/roomlist.js
+// pages/home/homedetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    background: ['demo-text-1','demo-text-2','demo-text-3'],
-    indicatorDots: true,
-    autoplay: true,
-    circular: true,
-    vertical: false,
-    interval: 2000,
-    duration: 500,
-    previousMargin: 0,
-    nextmargin:0
+    inputValue: ''
   },
 
-  clickToPush: function() {
-    wx.navigateTo({
-      url: '../room/roomdetail',
+  bindKeyInput: function (e) {
+    this.setData({
+      inputValue: e.detail.value
     })
   },
 

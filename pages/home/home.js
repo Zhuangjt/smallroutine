@@ -2,7 +2,9 @@
 Page({
 
   onTap: function () {
-    console.log(1);
+    wx.navigateTo({
+      url: '../home/homedetail',
+    })
   },
 
   /**

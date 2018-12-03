@@ -1,0 +1,19 @@
+<!--pages/home/homedetail.wxml-->
+<view class="page-body">
+  <view class="page-title">可以自动聚焦的input</view>
+  <view class="input-view-bg">
+    <input class="weui-input" auto-focus placeholder="将会获取焦点"></input>
+  </view>
+
+  <view class="page-title">控制最大输入长度的input</view>
+  <view class="input-view-bg">
+    <input class="weui-input" maxlength="10" placeholder="最大输入长度为10"></input>
+  </view>
+
+  <view class="page-title">事实获取输入值:{{inputValue}}</view>
+    <view class="input-view-bg">
+      <input class="weui-input" bindinput="bindKeyInput" maxlength="10" placeholder="输入同步到view中" ></input>
+    </view>
+
+  
+</view>
